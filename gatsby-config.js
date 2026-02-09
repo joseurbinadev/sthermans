@@ -17,6 +17,16 @@ module.exports = {
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-image`,
+    `gatsby-plugin-sitemap`,
+       {                             
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+          trackingIds: ['G-J2EEWB8BG0'],
+          pluginConfig: {
+            head: true
+          },
+        },
+      },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

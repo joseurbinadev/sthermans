@@ -25,8 +25,17 @@ export default function HTML(props) {
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         {props.headComponents}
-       
-        
+       <script async src="https://www.googletagmanager.com/gtag/js?id=G-J2EEWB8BG0"></script>
+           <script
+          type='text/javascript'
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', "G-J2EEWB8BG0");`,
+          }}
+        />
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
