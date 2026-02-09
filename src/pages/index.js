@@ -32,3 +32,4 @@ const IndexPage = () => (
 export const Head = () => <Seo title="St Herman's Cave Belize" />
 
 export default IndexPage
+               
