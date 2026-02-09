@@ -1,0 +1,51 @@
+fragment ItemFaqs on ItemFaqs {
+  stage
+  publishedAt
+  updatedAt
+  createdAt
+  remoteId: id
+  faqs {
+    ... on Faqs {
+      stage
+      id
+      faqTitle
+      faqCont {
+        ... on RichText {
+          raw
+          html
+          markdown
+          text
+        }
+      }
+      updatedAt
+    }
+  }
+  publishedBy {
+    ... on User {
+      remoteTypeName: __typename
+      remoteId: id
+      stage
+    }
+  }
+  updatedBy {
+    ... on User {
+      remoteTypeName: __typename
+      remoteId: id
+      stage
+    }
+  }
+  createdBy {
+    ... on User {
+      remoteTypeName: __typename
+      remoteId: id
+      stage
+    }
+  }
+  scheduledIn {
+    ... on ScheduledOperation {
+      remoteTypeName: __typename
+      remoteId: id
+      stage
+    }
+  }
+}

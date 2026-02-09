@@ -1,0 +1,275 @@
+
+@import "./../../src/less/variables.scss";
+
+
+
+.tours-deferred {
+   // background-color: #040d10;
+    color: white;
+   background-image: url("../images/landing-img.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  
+}
+.tours-deferred .image-gallery { 
+    position: sticky;
+    top: 0;
+}
+.tours-deferred .carousel,
+.tours-deferred .carousel-item,
+.tours-deferred .carousel-inner,
+.tours-deferred .gatsby-image-wrapper{
+    @media(min-width: 787px){
+       height: 100vh !important;  
+    }
+
+    object-fit: cover;
+    @include image-typical;
+}
+.tours-deferred .gatsby-image-wrapper{
+    width: 100%;
+    height: 100%;
+     object-fit: cover;
+    @media(max-width: 575px){
+        height: 400px;
+    }
+}
+
+.tours-deferred #right .carousel-item {
+    @include image-typical;
+     height: 100%;  
+    background-size: cover;
+}
+.tours-deferred .back-button {
+    display: none;
+}
+
+.tours-deferred #left {
+    padding: 30px 25px;
+    &{
+        @media(min-width: 992px){
+            padding-top: 100px!important;
+        }
+    }
+}
+.tours-deferred #right{
+    padding-left: 0;
+    padding-right: 0;
+}
+.contact-cta.tours.book-now{
+    text-decoration: none;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #23342C;
+    font-size: 18px;
+    padding-bottom: 20px;
+    .book-now{
+        color: #fff;
+        background-color: rgb(239, 132, 30);
+        padding: 10px;
+        transition: all .2s ease-in-out;
+        &:hover{
+            color: #23342C;
+            text-decoration: unset;
+            background-color: #23342C;
+        }
+    }
+}
+.contact-cta.tours.book-now p a{
+    text-decoration: none;
+    font-family: "Play", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #23342C;
+    font-size: 18px;
+    text-decoration: unset;
+    &:hover{
+        color: rgb(239, 132, 30)!important;
+    }
+}
+
+.tours-deferred #left h4 {
+   border: 1px solid #09442c;
+ 
+    padding: 10px 15px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    border-radius: 3px;
+    display: table-cell;
+ background-color: #09442c;
+ color: #fff;
+}
+
+.tours-deferred h4#strike {
+    text-decoration: line-through;
+    color: #09442c !important;
+}
+
+.tours-deferred #left .text-field p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tours-deferred #left a {
+    //color: $paper !important;
+   // text-decoration: underline !important;
+}
+.tours-deferred .carousel-indicators {
+    width: unset;
+    height: unset !important;
+}
+
+
+@media only screen and (max-width: 786px) {
+    .tours-deferred .image-gallery {
+        position: relative;
+        top: unset;
+    }
+    .tours-deferred #left .image-gallery,
+    .tours-deferred .carousel,
+    .tours-deferred .carousel-item,
+    .tours-deferred .carousel-inner,
+    .tours-deferred #left .gatsby-image-wrapper img  {
+        //height: 300px !important;
+    }
+    .tours-deferred #left {
+        padding-left: 10px;
+        padding-right:10px;
+    }
+    .tours-deferred #left .text-field h4 {
+        text-align: center;
+    }
+    .tours-deferred #left .text-field h1 {
+        margin-left: 0;
+        margin-right: 0;
+        display: table;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    .tours-deferred {
+        margin-top: -72px;
+    }
+
+}
+@media only screen and (min-width: 1444px ) {
+    .tours-deferred #left {
+        padding: 30px 60px;
+    }
+}
+
+.contact-cta.tours {
+    margin-top: 40px;
+    border: 0.5px solid rgba(147, 196, 255, 0.5);
+    box-shadow: 0px 2px 4px rgba(147, 196, 255, 0.25);
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 15px;
+    h3{
+        //color: #306b79;
+    }
+}
+span.visually-hidden{
+    display: none;
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 0.5;
+    transition: opacity 0.6s ease;
+}
+
+.tours-deferred{
+    .row{
+        .col-sm-5{
+            .text-field{
+                h2{
+                    font-family: "Play", sans-serif;
+                    font-weight: bold;
+                    color: #09442c;
+                    text-transform: uppercase;
+                    letter-spacing: 1.5px;
+                    font-size: 40px;
+                    padding-top: 10px;
+                    padding-bottom: 40px;
+                    
+                }
+                h4{
+                    font-family: "Play", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    font-size: 17px;
+                    text-transform: uppercase;
+                    color: #09442c;
+                    font-weight: bold;
+                }
+                div{
+                    padding-top: 30px;
+                    p{
+                        text-decoration: none;
+                        font-family: "Play", sans-serif;
+                        font-weight: 400;
+                        font-style: normal;
+                        color: #09442c;
+                        font-size: 20px;
+                        //opacity: .9;
+                    }
+                }
+            }
+            .contact-cta.tours{
+                h3{
+                    font-family: "Play", sans-serif;
+                    font-weight: bold;
+                    color: #09442c;
+                    text-transform: uppercase;
+                    letter-spacing: 1.5px;
+                    font-size: 30px;
+                    padding-bottom: 0px;
+                    position: relative;
+                   
+                }
+                div{
+                    ul{
+                        li{
+                            color: #09442c;
+                            div{
+                                text-decoration: none;
+                                font-family: "Play", sans-serif;
+                                font-weight: 400;
+                                font-style: normal;
+                                color: #09442c;
+                               font-size: 18px;
+                            // opacity: .8;
+                            }
+                        }
+                    }
+                    p{
+                        color: #09442c;
+                        text-decoration: none;
+                        font-family: "Play", sans-serif;
+                        font-weight: 400;
+                        font-style: normal;
+                        color: #09442c;
+                        font-size: 18px;                 
+                    }
+                }
+            }
+        }
+    }
+}
+.WidgetBackground__Container-sc-1ho7q3r-0.iczPsf{
+    padding: 0px!important;
+}

@@ -1,0 +1,188 @@
+
+.header-details {
+ 
+    a.navbar-brand {
+        position: absolute;
+        top: -20px;
+        .gatsby-image-wrapper img{
+            width: 73%;
+        }
+    }
+    .contact-block {
+        margin-left: 186px;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url(../images/mobile-nav.png);
+      
+    }
+    nav{
+    width: 1500px;
+    margin: 0 auto;
+   
+    }
+    @media(max-width: 768px){
+    .navbar-light .navbar-brand {
+        width: 35%;
+        .gatsby-image-wrapper{
+           
+               // width: 50%;
+          
+        }
+    }
+ }
+    .navbar-light .navbar-nav .active>.nav-link{
+        color: #fff;
+    
+    }
+    .navbar-nav .nav-link:hover {
+        color: #fff!important;
+    }
+
+    li.nav-item.dropdown:hover .dropdown-menu {
+        display: block!important;
+    }
+    .navbar-toggler {
+     border-radius: 0;
+     padding: 4px;
+    }
+    
+    .contact-block{
+        a{
+            font-family: "Play", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            color: #e6dcd2;
+            text-transform: uppercase;
+            font-size: 18px;
+            text-decoration: none;
+            @media(min-width: 1221px){
+                .fa{
+                    display: none;
+                }
+            }
+            span{
+                @media(max-width: 1220px){
+                    display: none;
+                }
+            }
+        }
+    }
+
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: unset;
+    }
+    padding-top: 20px;
+    padding-bottom: 10px;
+    @media(min-width: 992px){
+        background-color: #051F20;
+    }
+    @media(max-width: 991px){
+        background-color: #051F20;
+        .navbar-light .navbar-toggler {
+            color: #e5b81c;
+            border-color: #e5b81c;
+        }
+    }
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+        background-color: unset!important;
+        padding-left: 10px;
+        padding-right: 10px;
+      
+      
+        
+    
+    }
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+        @media(max-width: 1529px){
+        width: 100%;
+    }
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-family: "Play", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: #e6dcd2;
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+    .mr-auto, .mx-auto {
+        margin-right: unset!important;
+        margin-left: auto!important;
+    }
+    @media(max-width: 1220px) and (min-width: 992px){
+    .navbar-light .navbar-nav .nav-link {
+        color: #e5b81c;
+        font-weight: bold;
+        font-size: 14px!important;
+        padding-right: 2px;
+        padding-left: 11px;
+    }
+}
+    ul.social{
+        display: inline-flex;
+        margin-bottom: 5px;
+      @media(max-width: 1220px) and (min-width: 992px){
+       
+            padding-left: 1rem;
+        
+      }
+      @media(max-width: 500px){
+       
+        padding-left: 0rem;
+    
+  }
+        li{
+            list-style: none;
+            margin-left: 10px;
+            a{
+                svg{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    .navbar-expand-lg .navbar-nav .dropdown-menu{
+       //display: block;
+       border-radius: 0px;
+       background-color: unset!important;
+      color: #e5b81c;
+      background-color: #00111e!important;
+      a.dropdown-item{
+        font-family: "Play", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: #e6dcd2;
+        text-transform: uppercase;
+        font-size: 16px;
+       }
+       .dropdown-item:hover, .dropdown-item:focus{
+        background-color: unset!important;
+        background-image: linear-gradient(rgba(0, 25, 44, 0.6), rgba(0, 25, 44, 0.6));
+       
+       }
+       .dropdown-item:hover , .dropdown-item:focus{
+        color: #fff;
+
+       }
+    }
+
+    @media(max-width: 1300px){
+      .navbar-light .navbar-nav .nav-link {
+            color: #e5b81c;
+            font-weight: bold;
+            font-size: 15px;
+        }
+     .contact-block a {
+            text-decoration: none;
+            color: #e5b81c;
+            font-weight: bold;
+            font-size: 17px;
+    }
+}
+
+}

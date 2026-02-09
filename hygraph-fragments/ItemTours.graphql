@@ -1,0 +1,115 @@
+fragment ItemTours on ItemTours {
+  stage
+  publishedAt
+  updatedAt
+  createdAt
+  remoteId: id
+  tourTitle
+  tourDescription {
+    ... on RichText {
+      raw
+      html
+      markdown
+      text
+    }
+  }
+  tourDuration {
+    ... on RichText {
+      raw
+      html
+      markdown
+      text
+    }
+  }
+  tourIncludes {
+    ... on RichText {
+      raw
+      html
+      markdown
+      text
+    }
+  }
+  tourUtilities {
+    ... on RichText {
+      raw
+      html
+      markdown
+      text
+    }
+  }
+  tourVideo
+  tourPrice
+  tourLocation
+  slug
+  descPrice {
+    ... on RichText {
+      raw
+      html
+      markdown
+      text
+    }
+  }
+  tourImage {
+    ... on GalleryImage {
+      stage
+      id
+      imageAltText
+      imageTitleText
+      galleryImage {
+        ... on Asset {
+          remoteTypeName: __typename
+          remoteId: id
+          locale
+          stage
+        }
+      }
+      updatedAt
+    }
+  }
+  tourGallery {
+    ... on GalleryImage {
+      stage
+      id
+      imageAltText
+      imageTitleText
+      galleryImage {
+        ... on Asset {
+          remoteTypeName: __typename
+          remoteId: id
+          locale
+          stage
+        }
+      }
+      updatedAt
+    }
+  }
+  publishedBy {
+    ... on User {
+      remoteTypeName: __typename
+      remoteId: id
+      stage
+    }
+  }
+  updatedBy {
+    ... on User {
+      remoteTypeName: __typename
+      remoteId: id
+      stage
+    }
+  }
+  createdBy {
+    ... on User {
+      remoteTypeName: __typename
+      remoteId: id
+      stage
+    }
+  }
+  tourStatus
+  scheduledIn {
+    ... on ScheduledOperation {
+      remoteTypeName: __typename
+      remoteId: id
+      stage
+    }
+  }
+}
