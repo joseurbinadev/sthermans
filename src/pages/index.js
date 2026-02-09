@@ -29,6 +29,6 @@ const IndexPage = () => (
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="St. Herman's Cave Belize" />
+export const Head = () => <Seo title="St Herman's Cave Belize" />
 
 export default IndexPage
