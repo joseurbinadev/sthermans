@@ -19,7 +19,7 @@ function Footer() {
         <div className="row">
             <div className="col-sm-4">
                 <div className="footer-content">
-                <a class="footer-brand" href="#">  <StaticImage src={MainLogo} quality={60} formats={["auto", "webp", "avif"]} /></a>
+                <a class="footer-brand" href="#">  <StaticImage  quality={60} formats={["auto", "webp", "avif"]} /></a>
                 <p>St. Herman's Cave Tours are more private and laid back as there are no cruise ship guests visiting the park. Feel free to get in touch with us if you wish to book your adventure here.</p>
                     <ul className="social">
                                 <li>
