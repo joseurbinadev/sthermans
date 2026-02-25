@@ -48,7 +48,7 @@ function Footer() {
                     <p>
                         TEL: 
                     </p>
-                    <a href="tel:5016326018">+(501) 632 6018</a>
+                    {/*<a href="tel:5016326018">+(501) 632 6018</a>*/}
                     <p>
                         EMAIL:
                     </p>
