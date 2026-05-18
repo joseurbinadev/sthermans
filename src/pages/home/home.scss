@@ -3,7 +3,7 @@
     height: 100%;
     width: 100%;
     z-index: 1;
-    background-image: url("../../images/hermans3.png");
+    background-image: url("../../images/bck_hero_bg.png");
     background-position: center top;
     background-size: cover;
     text-align: center;
@@ -45,7 +45,7 @@
         right: 0;
         bottom: 0;
         left: 0;
-        background: linear-gradient(180deg, rgb(0, 0, 0, 0.2) 20%, rgb(22, 48, 32, 1) 100%);
+        background: linear-gradient(180deg, rgb(0, 0, 0, 0.2) 70%, rgb(22, 48, 32, 1) 100%);
         z-index: 2;
     }
     .hero-absolute{
@@ -228,24 +228,24 @@
             }
         }
         .col-sm-6.tubing{
-            background-image: url("../../images/st-hermans-tubing-cta.jpg");
+            background-image: url("../../images/kayaking_bg.png");
             background-size: cover;
             background-position: center;
 
 
         }
         .col-sm-6.exploration{
-            background-image: url("../../images/Cave-ex.png");
+            background-image: url("../../images/tubing_bg.png");
             background-size: cover;
             background-position: center;
         }
           .col-sm-6.birding{
-            background-image: url("../../images/Lovely-Cotinga.png");
+            background-image: url("../../images/canoe_bg.png");
             background-size: cover;
             background-position: center;
         }
         .col-sm-6.choco{
-            background-image: url("../../images/choco.jpg");
+            background-image: url("../../images/zipline_bg.png");
             background-size: cover;
             background-position: center;
         }
@@ -360,7 +360,7 @@
 
 .offers-main{
     position: relative;
-    background-image: url("../../images/st_hermans_about_bg.jpg");
+    background-image: url("../../images/ckb_bg.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -390,8 +390,9 @@
                     font-family: "Prompt", sans-serif;
                     font-weight: bold;
                     font-style: normal;
-                    //color: rgb(255, 153, 51);
-                    font-size: 20px;       
+                    color: rgb(255, 153, 51);
+                    font-size: 38px;
+                    text-transform: uppercase;       
             }
                 h3{
                     font-family: "Kaushan Script", cursive;
@@ -452,9 +453,11 @@
              }
         }
         .col-sm-6.cont{
-            padding-left: 130px;
+            padding-left: 100px;
             text-align: center;
             text-align: left;
+            padding-right: 30px;
+            padding-top: 80px;
             &{
                 @media(max-width: 1199px){
                         padding-left: 15px;
@@ -469,14 +472,14 @@
             }
             }
             p{
-                max-width: 100%;
-                    font-family: "Kaushan Script", cursive;
-                    font-weight: bold;
+                    max-width: 100%;
+                    font-family: "Play", sans-serif;
+                    font-weight: 300;
                     font-style: normal;
                     color: #0b2415;
                     font-size: 20px;
-                    text-transform: uppercase;
-                    letter-spacing: 1.5px;
+                    
+                    
             }
             .fa{
               padding-right: 20px;
@@ -487,17 +490,15 @@
       }
         
         h1{
-            position: relative;
-            font-weight: 700;
-            font-size: 100px;
-            line-height: 192px;
-            letter-spacing: .12em;
-            text-transform: uppercase;
-            background: linear-gradient(to bottom, #09442c 20%, rgb(255 170 13 / .3019607843) 60%, #fff 85%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: #fff0;
-            background-clip: text;
-            text-fill-color: #fff0; 
+    position: relative;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 62px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: linear-gradient(rgb(9, 68, 44) 20%, rgba(255, 170, 13, 0.7) 60%, rgb(255, 255, 255) 100%) text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+        
             &{
                 @media(min-width: 1200px) and (max-width: 1442px){
                     font-size: 79px;
@@ -582,11 +583,11 @@
         h1{
             position: relative;
             font-weight: 700;
-            font-size: 100px;
+              font-size: 70px;
             line-height: 192px;
-            letter-spacing: .12em;
+            letter-spacing: 1px;
             text-transform: uppercase;
-            background: linear-gradient(to bottom, #09442c 20%, rgb(255 170 13 / .3019607843) 60%, #fff 85%);
+            background: linear-gradient(to bottom, #09442c 46%, rgba(255, 170, 13, 0.3019607843) 59%, #fff 85%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: #fff0;
             background-clip: text;
@@ -602,6 +603,11 @@
                     font-size: 30px!important;
                 }
             }
+
+            @media(max-width: 1199px){
+                    line-height: 77px;
+                   // background: linear-gradient(to bottom, #09442c 46%, rgba(255, 170, 13, 0.3019607843) 98%, #fff 85%);
+                    }
         }
         p{
             color: #09442c;

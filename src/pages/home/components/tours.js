@@ -6,54 +6,54 @@ function Tours() {
        <div className='row'>
         
          <div className='col-sm-6 tubing'>
-            <a href="/cave-tubing-in-st-herman-blue-hole-national-park/">
+            <a href="/cave-kayaking-in-nohoch-cheen-caves-branch-archaeological-reserve/" title="Cave Kayaking Tours in Belize at Nohoch Cheen Caves Branch">
               <div className='tour'>
                  <div className='price'>
-                    <p>$60USD</p>
+                    <p>$95USD</p>
                     <span>Per Person</span>
                  </div>
                  <div className='desc'>
-                   <h1>St. Herman's Cave Tubing</h1>
+                   <h1>5 Mile Cave Kayaking Belize</h1>
                  </div>
               </div>
               </a>
          </div>
          
          <div className='col-sm-6 exploration'>
-            <a href="/cave-tubing-in-st-herman-blue-hole-national-park/">
+            <a href="/cave-tubing-in-nohoch-cheen-caves-branch-archaeological-reserve/" title="Cave Tubing Tours in Belize at Nohoch Cheen Caves Branch">
               <div className='tour'>
                  <div className='price'>
-                    <p>$90USD</p>
+                    <p>$50USD</p>
                     <span>Per Person</span>
                  </div>
                  <div className='desc'>
-                   <h1>Cave Tubing & Cave Exploration</h1>
+                   <h1>Cave Tubing Belize</h1>
                  </div>
               </div>
               </a>
          </div>
          <div className='col-sm-6 birding'>
-             <a href="/birding-in-st-hermans-blue-hole-national-park/">
+             <a href="" title="Belize River Canoeing">
               <div className='tour'>
                  <div className='price'>
-                    <p>$75USD</p>
+                    <p>$185USD</p>
                     <span>Per Person</span>
                  </div>
                  <div className='desc'>
-                   <h1>Birding</h1>
+                   <h1>Belize River Canoeing</h1>
                  </div>
               </div>
               </a>
          </div>
          <div className='col-sm-6 choco'>
-            <a href="/lamanai-chocolate-in-belize/">
+            <a href="/jungle-zip-line-at-nohoch-cheen-caves-branch-archaeological-reserve/" title="Jungle Zipline Tours in Belize">
               <div className='tour'>
                  <div className='price'>
-                    <p>$60USD</p>
+                    <p>$45USD</p>
                     <span>Per Person</span>
                  </div>
                  <div className='desc'>
-                   <h1>Lamani Chocolate & Cave Tubing</h1>
+                   <h1>Jungle Zipline Belize</h1>
                  </div>
               </div>
               </a>

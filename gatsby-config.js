@@ -9,10 +9,10 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `St. Herman's Cave Tubing & Inland Blue Hole`,
-    description: `Enjoy St. Herman’s Cave tubing in Belize—one of only two cave tubing locations, perfectly located on the Hummingbird Highway and away from cruise ship crowds`,
+    title: `Cave Kayaking Belize`,
+    description: `Cave kayaking in Belize at the Nohoch Che'en Caves Branch Archaeological reserve, Belize's #1 Cave Kayaking Destination.`,
     author: `@Jose Urbina`,
-    siteUrl: `https://sthermanscavebelize.com/`,
+    siteUrl: `https://cavekayakingbelize.com/`,
   },
   plugins: [
     `gatsby-plugin-sass`,
@@ -37,8 +37,8 @@ module.exports = {
         {
     resolve: 'gatsby-v5-source-hygraph',
      options: {
-        endpoint: "https://api-us-east-1-shared-usea1-02.hygraph.com/v2/cls1doxdy2pb601utnz0vg1e2/master",
-       token: "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImdjbXMtbWFpbi1wcm9kdWN0aW9uIn0.eyJ2ZXJzaW9uIjozLCJpYXQiOjE3MDY3NjMzOTEsImF1ZCI6WyJodHRwczovL2FwaS11cy1lYXN0LTEtc2hhcmVkLXVzZWExLTAyLmh5Z3JhcGguY29tL3YyL2NsczFkb3hkeTJwYjYwMXV0bnowdmcxZTIvbWFzdGVyIiwibWFuYWdlbWVudC1uZXh0LmdyYXBoY21zLmNvbSJdLCJpc3MiOiJodHRwczovL21hbmFnZW1lbnQtdXMtZWFzdC0xLXNoYXJlZC11c2VhMS0wMi5oeWdyYXBoLmNvbS8iLCJzdWIiOiI4MDgwODcxMi0xNGE0LTQ2YTctOTIxNS1lN2UzZTU0ZWIwMzciLCJqdGkiOiJjbHMycXV0bXUwZHA1MDFrNDhubWoyZmhoIn0.jmhPMGB3DzWY4bgegtil1IIdIgDR-Gxio5cIvCZnTc2n0mqjSJClUU0EPilW4lwSEEk3IyZOWgEolu6KhebHMH5_B8KKY3Pv-r8he3_tAcjGUTDXLWCsXuQM9LRFiENhbKKsBmXDd4VwvDUW84zqjiKmJ9q5cnPfo8drf5WbbjxY_CcsAQiIjmch-Nkym4BYwXRmaaVPFPGdhaYkq8SGi886FbIAvqA4vfB-UfRUATvL464qZDYeSPfGYE3-SF9xFFKVlNcIHuH5Og98epBS7yQukoTkHdByrkWoCIrZmgxyhyjPobChxpXlnmLb_QaXCQN0Z7KZTWZqs2FNVmsT1KbB-y2su2o6mjZwzF4Bmy0cP2RwxhvZVP9zdCFjHqT2XH8crTVpfdFnUpd1vSaE7qzeU5Z4Pc_LbCX4N3tDaVMlnf8_6YtVAxqjDAs9gvvwT7zvunBm5OqEasKsWRs4AkG33LcWzMuGixr_2s_hVY1FiWSodxAsZpKXJXqMe2ezbRbjORyHJWMwqpvWDgy7yFtDCLtz6q9Ivlz5gtMjcUyElE0aoKAMKfMzqGTKNCpwK667NA8Tpa_FuPj5JmPwuRlprJxptbBqQztPfObRzaymRJ08jRQf1k6LXEAXL8bigGJzqLwFbuVMGVWeDLt6mKhH27Zoylq3DZv3zvfVo8g",
+        endpoint: "https://api-us-west-2.hygraph.com/v2/cmmsd7a3912ki07loceuv3308/master",
+       token: "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImdjbXMtbWFpbi1wcm9kdWN0aW9uIn0.eyJ2ZXJzaW9uIjozLCJpYXQiOjE3NzM2MTYxMjYsImF1ZCI6WyJodHRwczovL2FwaS11cy13ZXN0LTIuaHlncmFwaC5jb20vdjIvY21tc2Q3YTM5MTJraTA3bG9jZXV2MzMwOC9tYXN0ZXIiLCJtYW5hZ2VtZW50LW5leHQuZ3JhcGhjbXMuY29tIl0sImlzcyI6Imh0dHBzOi8vbWFuYWdlbWVudC11cy13ZXN0LTIuaHlncmFwaC5jb20vIiwic3ViIjoiN2NkYmNmYTEtMGI0My00ZTQ1LThjZDEtZGVhNjIyMjNkZWE1IiwianRpIjoiY21laTZlM2ZoMWlkdTA3bXgwbzkxMGR4OSJ9.JNBOKroNN4r7t_VzYBGlJhDmc4ujfIBPYdKgeoaKD7OzE_ryCTiaxQ6HndS8yg3YrcKYVbTp1MS0-MRO-ZFleMLas8ivmXJT2dpIhhRCFobE03-F6GFd7-K1Sef6yQ5CyxbVni5BgrFPr_HCumYDmLSoxcJeGtxIyr-EKHmWSsw5IAPWvTdo5VF_4mw0nxXpe57MOKCidWToEdQAGtMaHBNFB8LoDr4xxNOJ0ZiTuVvJ5FJMH9F1rKgblbY1ECTSssw2q-fiWmjCoyJkvoTsUfu5r77jTBWGABsi_zLQR9use74WPtNZTTdbQ6chjoArqoWyIpwGGI5SKi7TqH3zlcpiuEiocG1r-aa3fT_oSjWKr3-LWfmvlI6_X55tpDTcbDk9vaNrhmgvYi-R5DAFFlJmvmzRIvxiIKpUGmlT2vkbW2N_XBHRU8883gC3l6VmZ7qPnNytrr5cNRoHdYCeTxhEhGSjL1uTULoJTN-9wT_cZIY6m8aic0Yyy_CJH3_H7pNJmL0tHcSK5T30C04rZEAbWUM3nCnJQFegS9en51OvFWwfa1tc9Aqabzy78JlQua25NRBeZkEHj7Tx3J96vbiBl4KddeG12VQCO47m4LFiEk9Bx6g78uI5dP2Uf60fBLtQ9OJMQGUjDlN8ui9KKs6O4qzhkUbn4Ui1rP5Aol8",
    
     },
     },
@@ -55,7 +55,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/fav_ico.png`, // This path is relative to the root of the site.
+        icon: `src/images/bck_logo_new.png`, // This path is relative to the root of the site.
       },
     },
   ],

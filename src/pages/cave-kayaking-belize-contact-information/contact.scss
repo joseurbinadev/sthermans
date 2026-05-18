@@ -1,0 +1,31 @@
+.discover-hero.contact{
+    padding-bottom: 0px;
+    @media(min-width: 768px){
+      .main-content {
+    padding-top: 110px;
+}
+    }
+}
+
+.featured-cont.contact{
+  padding-bottom: 40px;
+    h3{
+       font-family: "Play", sans-serif;
+       font-weight: bold;
+    }
+    p {
+        max-width: 100%;
+        margin: 0 auto;
+        color: #013328;
+    font-family: Play, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    }
+}
+.featured-cont{
+    margin: 0 auto;
+    max-width: 1320px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}

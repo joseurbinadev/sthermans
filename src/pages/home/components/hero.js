@@ -8,8 +8,8 @@ function Hero() {
   
         <div className='hero-absolute'>
           <div className='absolute-cont'> 
-             <h1>Belize's UNIQUE adventures.<br />St. Herman's Cave Tubing, Cave Exploration, Crystal Cave, and Inland Blue Hole!!!</h1>
-              <h2>Private & away from Cruise Ship crowds.. <br />BOOK your intimate nature encounter with us...</h2><br />
+             <h1>Home of the Best!<br />Cave Kayaking Belize - 5 Mile Cave Kayaking, Jungle Zipline, and Cave Tubing!!!</h1>
+              <h2>BOOK your intimate nature encounter with us, Trusted & Loved by travelers!<br />Licensed and Insured by Belize Tourism Board.</h2><br />
           </div>
         </div>
 

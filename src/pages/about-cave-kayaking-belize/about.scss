@@ -1,0 +1,43 @@
+.featured-cont.about{
+    text-align: center;
+    padding-top: 150px;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    p {
+        max-width: 100%;
+        margin: 0 auto;
+        color: #013328;
+    font-family: Play, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    }
+    h3{
+        font-family: Play, sans-serif;
+        color: #013328;
+        padding-bottom: 40px;
+    }
+    a#tour-details{
+       margin: 0 auto;
+       margin-right: auto!important;
+    }
+    a#tour-details {
+    background-color: #ffd28d;
+    border-bottom: 1px solid #ffd28d;
+    border-top: 1px solid #ffd28d;
+    color: #040d10;
+    display: block;
+    font-family: Play, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-right: 40px;
+    margin-top: 20px !important;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: fit-content;
+}
+}

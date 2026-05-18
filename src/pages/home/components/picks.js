@@ -6,46 +6,46 @@ function Picks() {
     <div className='top-picks'>
       <div className='row'>
         <div className='col-sm-3'>
-            <a href="/visit-xunantunich-maya-ruins-belize/">
+            <a href="/cave-kayaking-in-nohoch-cheen-caves-branch-archaeological-reserve/">
                 <div className='overlay'></div>
-                <StaticImage src='../../../images/sthermans_xunan_cta.png' />
+                <StaticImage src='../../../images/zipline_new_bg.png' />
                 <div className='cont'>
-                <h1>St. Herman's Cave tubing & Xunantunich Maya Ruins</h1>
-                <h2>$125USD</h2>
-                <p>Xunantunich is one of Belize’s most impressive and accessible Maya archaeological sites, set within a lush tropical forest preserve in the Cayo District…</p>
+                <h1>5 Mile Cave Kayaking & Jungle Zipline</h1>
+                <h2>$14oUSD</h2>
+                <p>Belize Cave Kayaking with Jungle zipline combo adventure offers both …</p>
                 </div>
             </a>
         </div>
         <div className='col-sm-3'>
-            <a href="/cave-tubing-in-st-herman-blue-hole-national-park/">
+            <a href="/cave-kayaking-in-nohoch-cheen-caves-branch-archaeological-reserve/">
                 <div className='overlay'></div>
-                <StaticImage src='../../../images/sthermans_caving_cta.png' />
+                <StaticImage src='../../../images/kayaking_new_bg.png' />
                 <div className='cont'>
-                <h1>St. Herman's Cave Tubing & Spelunking</h1>
-                <h2>$90USD</h2>
-                <p>Located along the scenic Hummingbird Highway near Belmopan, this guided tour takes you deep into the St.Herman's Cave system…</p>
+                <h1>Extended 5 Mile Cave Kayaking Adventure</h1>
+                <h2>$95USD</h2>
+                <p>Located at the Nohoch Che'en Caves Branch Archaeological Reserve...</p>
                 </div>
             </a>
         </div>
             <div className='col-sm-3'>
-            <a href="/cave-tubing-in-st-herman-blue-hole-national-park/">
+            <a href="/cave-tubing-in-nohoch-cheen-caves-branch-archaeological-reserve/">
                 <div className='overlay'></div>
-                <StaticImage src='../../../images/blue_hole_cta.png' />
+                <StaticImage src='../../../images/tubing_new_bg.png' />
                 <div className='cont'>
-                <h1>St. Herman's Cave Spelunking & Inland Blue Hole Swim</h1>
-                <h2>$80USD</h2>
-                <p>St.Herman’s Cave system, where calm underground rivers flow through ancient limestone chambers once used by the Mayas…</p>
+                <h1>Ultimate Cave Tubing Adventure</h1>
+                <h2>$50USD</h2>
+                <p>Experience the BEST Cave Tubing Adventure in Belize with Top-Knotch Guides and Premium gear...</p>
                 </div>
             </a>
         </div>
         <div className='col-sm-3'>
-            <a href="/cave-kayaking-in-nohoch-cheen-caves-branch/">
+            <a href="/cave-kayaking-in-nohoch-cheen-caves-branch-archaeological-reserve/">
                 <div className='overlay'></div>
-                <StaticImage src='../../../images/kayaking_cta.png' />
+                <StaticImage src='../../../images/crystal_new_bg.png' />
                 <div className='cont'>
                 <h1>5 Mile Cave Kayaking & Crystal Cave Exploration</h1>
-                <h2>$100USD</h2>
-                <p>Set within the Caves Branch Cave System, this guided adventure takes you along a calm stretch of river that flows through multiple limestone caves…</p>
+                <h2>$150USD</h2>
+                <p>Combine some Cave Exploration with a Laid Back Cave Kayaking adventure at Nohoch Che'en Caves Branch...</p>
                 </div>
             </a>
         </div>

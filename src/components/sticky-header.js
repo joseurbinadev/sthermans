@@ -10,13 +10,14 @@ function App() {
       <div id="sticky-header" className="header">
       
         <nav  className="navbar navbar-expand-lg navbar-light">
-             <a className="brand" href="/" title="St. Herman's Cave Belize">  
-              St. Herman's Cave Tubing Masters
+             <a className="brand" href="/" title="Cave Kayaking Belize at Nohoch Che'en Caves Branch">     
+              <StaticImage alt="Cave Kayaking Belize at Nohoch Che'en Caves Branch" src="../images/bck_logo_new.png" />
+            
              </a>
             <div className="contact-block">
 
-            <a href="/" title="Cave Tubing Belize at St. Herman's Cave Belize">
-           {/*<i class="fa fa-phone" aria-hidden="true"></i>*/}
+            <a href="/" title="Cave Kayaking Belize at Nohoch Che'en Caves Branch">
+                {/*<i class="fa fa-phone" aria-hidden="true"></i>*/}
             <span></span>
             </a>
             </div>
@@ -29,24 +30,22 @@ function App() {
                 <ul class="navbar-nav mr-auto">
                
                 <li class="nav-item">
-                    <a title="" class="nav-link" href="">About St. Herman's Cave</a>
+                    <a href="/all-tours/" title="Cave Kayaking tours in Belize" class="nav-link">All Tours</a>
                 </li>
                 <li class="nav-item">
-                    <a title="" class="nav-link" href="">Inland Blue Hole</a>
+                    <a title="Cave Kayaking tours in Belize" class="nav-link" href="/cave-kayaking-in-nohoch-cheen-caves-branch-archaeological-reserve/">Cave Kayaking Belize</a>
                 </li>
                 <li class="nav-item">
-                    <a title="St. Herman's Cave Tours Belize" class="nav-link" href="/all-tours">Our Tours</a>
+                    <a title="About Cave Kayaking Belize" class="nav-link" href="/about-cave-kayaking-belize/">About Us</a>
                 </li>
                
                
                 <li class="nav-item">
-                    <a title="About St. Herman's Cave Belize Tours" class="nav-link" href="">Who we are?</a>
+                    <a title="Cave Kayaking in Belize Pictures" class="nav-link" href="https://www.facebook.com/profile.php?id=61574224753130&sk=photos" target="_blank">Gallery</a>
                 </li>
+              
                 <li class="nav-item">
-                    <a title="St. Herman's Cave Belize Tours Images" class="nav-link" target ="_blank"href="https://www.facebook.com/StHermansCaveTubingBelize/photos">Gallery</a>
-                </li>
-                <li class="nav-item">
-                  <a title="" class="nav-link" href="" >
+                  <a title="Contact Cave Kayaking Belize" class="nav-link" href="/cave-kayaking-belize-contact-information/">
                    Contact Us
                 </a></li>
                 </ul>

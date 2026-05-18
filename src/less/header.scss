@@ -25,7 +25,7 @@
     }
    
     @media(min-width: 992px){
-       // position: absolute;
+        position: absolute;
         z-index: 9;
         width: 99.9%;
         li.nav-item {
@@ -63,7 +63,7 @@
        // width: 35%;
         .gatsby-image-wrapper{
            
-                width: 280px;
+                width: 460px;
                 
           
         }
@@ -125,8 +125,8 @@
     }
     
     @media(min-width: 992px){
-   // background-image: linear-gradient(rgba(0, 0, 0,0.9), rgba(0, 0, 0,0.0))!important;
-    background-color: #06402B!important;
+   background-image: linear-gradient(rgba(0, 0, 0,0.9), rgba(0, 0, 0,0.0))!important;
+    //background-color: #06402B!important;
     }
     @media(max-width: 991px){
         background-color: rgb(5, 17, 20);

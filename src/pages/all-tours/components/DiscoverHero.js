@@ -22,7 +22,7 @@ function DiscoverHero() {
                 <Carousel >
                    
                     <>
-                      <StaticImage src="../../../images/tours_header_img.png" quality={60} formats={["auto", "webp"]} />
+                      <StaticImage src="../../../images/kayaking_tours_header.png" quality={60} formats={["auto", "webp"]} />
                     </>
                    
                     

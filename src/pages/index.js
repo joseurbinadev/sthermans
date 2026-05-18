@@ -14,7 +14,7 @@ import Picks from "./home/components/picks"
 import Reviews from "./home/components/reviews"
 const IndexPage = () => (
   <Layout>
-      <Seo title="St Herman's Cave Belize" />
+      <Seo title="Cave Kayaking Belize | Belize Adventure Tours" />
      <Hero /> 
      <Tours />
      <Welcome />
