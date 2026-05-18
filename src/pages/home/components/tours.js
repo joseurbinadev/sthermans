@@ -33,7 +33,7 @@ function Tours() {
               </a>
          </div>
          <div className='col-sm-6 birding'>
-             <a href="" title="Belize River Canoeing">
+             <a href="/belize-river-canoeing-ruta-maya-experience-belize-river/" title="Belize River Canoeing">
               <div className='tour'>
                  <div className='price'>
                     <p>$185USD</p>
